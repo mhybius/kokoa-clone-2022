@@ -7,12 +7,31 @@
   justify-content: space-between;
 }
 
+.settings__setting:last-child {
+  border-bottom: none;
+}
+
 .settings__setting i {
   opacity: 0.8;
   margin-right: 20px;
   font-size: 22px;
 }
 
+.settings__setting-column {
+  display: flex;
+}
+
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting-column > span {
+  margin-right: 10px;
+}
+
+.border-line {
+  height: 2px;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
 }
